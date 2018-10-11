@@ -11,7 +11,6 @@ import java.util.ArrayList;
 
 public class Game extends Canvas {
 
-
       	private BufferStrategy strategy;   // take advantage of accelerated graphics
         private boolean waitingForKeyPress = true;  // true if game held up until
                                                     // a key is pressed
@@ -42,7 +41,7 @@ public class Game extends Canvas {
     	 */
     	public Game() {
     		// create a frame to contain game
-    		JFrame container = new JFrame("Commodore 64 Space Invaders");
+    		JFrame container = new JFrame("Foobar");
     
     		// get hold the content of the frame
     		JPanel panel = (JPanel) container.getContentPane();
